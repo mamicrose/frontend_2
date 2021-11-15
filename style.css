@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish&display=swap');
+
+* {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: #231E36;
+}
+
+.container_1 {
+    width: 345px;
+    height: 305px;
+    background: #1C172E;
+    border-radius: 25px;
+    margin: 40px;
+    padding-left: 64px;
+    color: #BCB8CC;
+    filter: drop-shadow(0px 42px 20px rgba(22, 18, 39, 0.44));
+}
+
+.container_1 .title {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    line-height: 32px;
+    display: block;
+    padding-top: 60px;
+}
+
+.container_1 .description {
+    margin: 25px 0px;
+    font-size: 18px;
+}
+
+.container_1 .button {
+    background-color: #4929BB;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.container_1 .button:hover {
+    opacity: 0.8;
+}
+
+.container_2 {
+    width: 701px;
+    height: 298px;
+    border-radius: 25px;
+    padding: 70px 60px;
+    background-color: #1C172E;
+    margin: 80px;
+    color: #BCB8CC;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 42px 20px rgba(22, 18, 39, 0.44));
+}
+
+.container_2 .left {
+    margin-right: auto;
+}
+
+.container_2 .right {
+    margin-left: auto;
+}
+
+.container_2 .title {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.container_2 .description {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.container_2 .button {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 45px 13px 44px;
+    background-color: #4929BB;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container_2 .button:hover {
+    opacity: 0.8;
+}
+
+.container_2 ul {
+    list-style: none;
+}
+
+.container_2 ul li {
+    margin-bottom: 15px;
+}
+
+.container_2 ul li:last-child {
+    margin-bottom: 0px;
+}
